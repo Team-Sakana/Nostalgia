@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FirstJoin.unity
+    guid: 9fba4553c12d2894aa576520ec0d3fbd
+  - enabled: 1
+    path: Assets/Scenes/Play.unity
+    guid: 4bc7b88370a40f041bf9fcca58a7c402
+  - enabled: 1
+    path: Assets/Scenes/DayPlan.unity
+    guid: 7dff20d8119f4624394ea5fc735e8a94
+  - enabled: 1
+    path: Assets/Scenes/Scene_Zero.unity
+    guid: f5c9a46fdc7d8d845bce4bd255cdbf8b
+  - enabled: 1
+    path: Assets/Scenes/WatchScenes.unity
+    guid: b551cffb53ad4084db810c841cc631ed
+  - enabled: 1
+    path: Assets/Scenes/WeMaking.unity
+    guid: a9bf247bfba82b542be9502b527cc901
+  - enabled: 1
+    path: Assets/Scenes/DayEnd.unity
+    guid: a293b0f2261ef774cbac77cba8fb8b42
+  - enabled: 1
+    path: Assets/Scenes/mini.unity
+    guid: 895dd8d5f57f1284c8656a8b3c42ff8a
+  - enabled: 1
+    path: Assets/Scenes/minigame.unity
+    guid: 830c0be5b6f97884f92dd989f073a1ec
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: a7c8c2f512edaf44c966ba9ee19e8eb6
+  m_configObjects: {}
