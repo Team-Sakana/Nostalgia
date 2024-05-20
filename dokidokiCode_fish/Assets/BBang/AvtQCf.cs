@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BBang
 {
-    public class SceneSave : MonoBehaviour
+    public class AvtQCf : MonoBehaviour
     {
         // Start is called before the first frame update
         private void Start()
