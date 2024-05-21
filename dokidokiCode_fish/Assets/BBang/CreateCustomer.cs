@@ -209,6 +209,11 @@ namespace BBang
                 return;
             }
             if (_b1G != _b1 || _b2G != _b2 || _b3G != _b3) return;
+            Destroy(_cB1);
+            Destroy(_cB2);
+            Destroy(_cB3);
+            Destroy(_cC);
+            Destroy(_cT);
             _score += 1000;
             _b1 = 0;
             _b2 = 0;
