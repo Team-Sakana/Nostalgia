@@ -1,37 +1,32 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-public class Timer : MonoBehaviour
+namespace BBang
 {
-    public TMP_Text TimeText;
-    
-    
-    void Start()
+    public class Timer : MonoBehaviour
     {
-        StartCoroutine(wait(60f));
-    }
-
-    IEnumerator wait(float Time)
-    {
-        float elepsedtime = 0f;
-        while(elepsedtime<Time)
+        public TMP_Text timeText;
+        [NonSerialized] public static float TimeElapsed;
+        
+        private void Start()
         {
-            elepsedtime += UnityEngine.Time.deltaTime;
-            TimeText.text = (Time - elepsedtime).ToString("0.00");
-            yield return null;
+            StartCoroutine(Wait(60f));
         }
-        SceneManager.LoadScene("New Scene");
-        yield break;
+
+        private IEnumerator Wait(float time)
+        {
+            var timeElapsed = 0f;
+            while(timeElapsed<time)
+            {
+                timeElapsed += Time.deltaTime;
+                TimeElapsed = time - timeElapsed;
+                timeText.text = TimeElapsed.ToString("0.00");
+                yield return null;
+            }
+            SceneManager.LoadScene("New Scene");
+        }
     }
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
-   
-    
 }
