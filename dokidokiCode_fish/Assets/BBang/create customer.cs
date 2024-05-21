@@ -83,26 +83,26 @@ public class createcustomer : MonoBehaviour
         bread3 = Random.Range(1, 4);
         var clonec = Instantiate(Customer);
         var clonet = Instantiate(Text);
-        clonec.transform.position = new Vector3(-4.5f, 0.75f, 0);
-        clonet.transform.position = new Vector3(3.35f, 1.4f, 0f);
+        clonec.transform.position = new Vector3(-5.2f, 0.625f, 0);
+        clonet.transform.position = new Vector3(3.35f, 1.7f, 0f);
         if (bread1 == 1)
         {
             var cloneb1 = Instantiate(Bread1);
-            cloneb1.transform.position = new Vector3(0f, 1.6f, 0f);
+            cloneb1.transform.position = new Vector3(0f, 1.9f, 0f);
             Destroy(cloneb1,4f);
             b1g++;
         }
         else if (bread1 == 2)
         {
             var cloneb2 = Instantiate(Bread2);
-            cloneb2.transform.position = new Vector3(0f, 1.6f, 0f);
+            cloneb2.transform.position = new Vector3(0f, 1.9f, 0f);
             Destroy(cloneb2,4f);
             b2g++;
         }
         else if (bread1 == 3)
         {
             var cloneb3 = Instantiate(Bread3);
-            cloneb3.transform.position = new Vector3(0f, 1.6f, 0f);
+            cloneb3.transform.position = new Vector3(0f, 1.9f, 0f);
             Destroy(cloneb3,4f);
             b3g++;
         }
@@ -110,21 +110,21 @@ public class createcustomer : MonoBehaviour
         if (bread2 == 1)
         {
             var cloneb1 = Instantiate(Bread1);
-            cloneb1.transform.position = new Vector3(3.2f, 1.6f, 0f);
+            cloneb1.transform.position = new Vector3(3.2f, 1.9f, 0f);
             Destroy(cloneb1,4f);
             b1g++;
         }
         else if (bread2 == 2)
         {
             var cloneb2 = Instantiate(Bread2);
-            cloneb2.transform.position = new Vector3(3.2f, 1.6f, 0f);
+            cloneb2.transform.position = new Vector3(3.2f, 1.9f, 0f);
             Destroy(cloneb2,4f);
             b2g++;
         }
         else if (bread2 == 3)
         {
             var cloneb3 = Instantiate(Bread3);
-            cloneb3.transform.position = new Vector3(3.2f, 1.6f, 0f);
+            cloneb3.transform.position = new Vector3(3.2f, 1.9f, 0f);
             Destroy(cloneb3,4f);
             b3g++;
         }
@@ -132,21 +132,21 @@ public class createcustomer : MonoBehaviour
         if (bread3 == 1)
         {
             var cloneb1 = Instantiate(Bread1);
-            cloneb1.transform.position = new Vector3(6.4f, 1.6f, 0f);
+            cloneb1.transform.position = new Vector3(6.4f, 1.9f, 0f);
             Destroy(cloneb1,4f);
             b1g++;
         }
         else if (bread3 == 2)
         {
             var cloneb2 = Instantiate(Bread2);
-            cloneb2.transform.position = new Vector3(6.4f, 1.6f, 0f);
+            cloneb2.transform.position = new Vector3(6.4f, 1.9f, 0f);
             Destroy(cloneb2,4f);
             b2g++;
         }
         else if (bread3 == 3)
         {
             var cloneb3 = Instantiate(Bread3);
-            cloneb3.transform.position = new Vector3(6.4f, 1.6f, 0f);
+            cloneb3.transform.position = new Vector3(6.4f, 1.9f, 0f);
             Destroy(cloneb3,4f);
             b3g++;
         }
