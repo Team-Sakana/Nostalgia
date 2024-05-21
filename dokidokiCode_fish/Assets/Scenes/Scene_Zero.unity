@@ -1250,8 +1250,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 591322854}
-        m_TargetAssemblyTypeName: clickEvent, Assembly-CSharp
-        m_MethodName: StatrClick
+        m_TargetAssemblyTypeName: Source.ClickEvent.ClickEvent, Assembly-CSharp
+        m_MethodName: StartClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1300,8 +1300,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5af8762d33927da4284ce18b17867a4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChangeTime: 1
-  Canvas: {fileID: 2108071466}
+  changeTime: 1
+  canvas: {fileID: 2108071466}
 --- !u!1 &675919425
 GameObject:
   m_ObjectHideFlags: 0
@@ -3069,8 +3069,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1760970538}
-        m_TargetAssemblyTypeName: ClickScean, Assembly-CSharp
-        m_MethodName: StatrScenes
+        m_TargetAssemblyTypeName: Source.ClickEvent.ClickScene, Assembly-CSharp
+        m_MethodName: StartScenes
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
