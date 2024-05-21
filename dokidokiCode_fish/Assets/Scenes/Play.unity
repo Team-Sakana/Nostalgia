@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0639bb3bf14af4b4baf5633da60874de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanImgs: []
+  planImages: []
 --- !u!4 &167610461
 Transform:
   m_ObjectHideFlags: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0639bb3bf14af4b4baf5633da60874de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlanImgs:
+  planImages:
   - {fileID: 21300000, guid: 92c50ef1a868e5247945adbddb4d5d8e, type: 3}
   - {fileID: 21300000, guid: e69f78816389616438de2bf4e75750a9, type: 3}
   - {fileID: 21300000, guid: 658988aea189a48448ac880029dc3097, type: 3}
@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39d6091dd8b581a439408494db670a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeTime: 2
+  fadeTime: 2
   whiteFade: {fileID: 263450452}
 --- !u!114 &407587524
 MonoBehaviour:
@@ -504,9 +504,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caf7deb1fbc8f7b4b9d6d4ead7e03bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hayulanim: {fileID: 1642618040}
+  hayulAni: {fileID: 1642618040}
   hayul: {fileID: 1642618036}
-  DarkHayoul: {fileID: 2800000, guid: 8bcf665a2f32abe41b76b64a3be569c0, type: 3}
+  darkHayoul: {fileID: 2800000, guid: 8bcf665a2f32abe41b76b64a3be569c0, type: 3}
   hayoul: {fileID: 2800000, guid: 0c77dcac914c5054ab072ff2378f9c40, type: 3}
 --- !u!114 &407587525
 MonoBehaviour:
@@ -520,10 +520,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65401cb4feb8e3c4abd208aa50281b23, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FadeTime: 2
+  fadeTime: 2
   blackFade: {fileID: 1963379125}
-  Dbutton: {fileID: 877090891}
-  Pbutton: {fileID: 1364338330}
+  dButton: {fileID: 877090891}
+  pButton: {fileID: 1364338330}
 --- !u!114 &407587526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,8 +536,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0925e5426395d8949afdeab243d5e5e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackGround: {fileID: 1896249973}
-  IMGs:
+  backGround: {fileID: 1896249973}
+  images:
   - {fileID: 2800000, guid: 75c73558cc501654db86509040b11663, type: 3}
   - {fileID: 2800000, guid: a79f8ea27eca5d64c8a5bff20060e221, type: 3}
   - {fileID: 2800000, guid: 7d5eacce1342f814f80811210ada063e, type: 3}
@@ -555,11 +555,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c469c0fcd5c3914abe0788ae7333bbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BackGround: {fileID: 1705442830}
-  BackGroundButton: {fileID: 407587521}
-  BackgroundText: {fileID: 1542141077}
-  Namepad: {fileID: 1738467351}
-  NamepadText: {fileID: 2047353531}
+  backGround: {fileID: 1705442830}
+  backGroundButton: {fileID: 407587521}
+  backgroundText: {fileID: 1542141077}
+  namePad: {fileID: 1738467351}
+  namePadText: {fileID: 2047353531}
   t: 3
 --- !u!114 &407587528
 MonoBehaviour:
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c21c31a5a7cf8774aa164aca858d8ee5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NamePad: {fileID: 2047353530}
+  namePad: {fileID: 2047353530}
 --- !u!114 &407587529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,8 +598,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4338a7cd891f16e43bde18e9e719eaa8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scenepack: {fileID: 622069871}
-  fadetime: 1
+  scenePack: {fileID: 622069871}
+  fadeTime: 1
 --- !u!1 &506287342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1030,8 +1030,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1901213366}
-        m_TargetAssemblyTypeName: DropDownManager, Assembly-CSharp
-        m_MethodName: getDrop
+        m_TargetAssemblyTypeName: Source.Managers.DropDownManager, Assembly-CSharp
+        m_MethodName: GetDrop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1311,8 +1311,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   halfFade: {fileID: 1447887503}
-  dropdownanim: {fileID: 0}
-  DButtonanim: {fileID: 0}
+  dropDownAni: {fileID: 0}
+  dButtonAni: {fileID: 0}
 --- !u!95 &1009269185
 Animator:
   serializedVersion: 5
@@ -1644,8 +1644,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1901213366}
-        m_TargetAssemblyTypeName: DropDownManager, Assembly-CSharp
-        m_MethodName: getDrop
+        m_TargetAssemblyTypeName: Source.Managers.DropDownManager, Assembly-CSharp
+        m_MethodName: GetDrop
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1879,9 +1879,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22e825a720877034592b0caa6e81ad2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnBG: {fileID: 1447887503}
-  phoneanim: {fileID: 1009269185}
-  PButtonanim: {fileID: 1364338332}
+  onBg: {fileID: 1447887503}
+  phoneAni: {fileID: 1009269185}
+  pButtonAni: {fileID: 1364338332}
 --- !u!114 &1364338336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1927,8 +1927,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1364338335}
-        m_TargetAssemblyTypeName: PhoneManager, Assembly-CSharp
-        m_MethodName: getPhone
+        m_TargetAssemblyTypeName: Source.Managers.PhoneManager, Assembly-CSharp
+        m_MethodName: GetPhone
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2075,8 +2075,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1364338335}
-        m_TargetAssemblyTypeName: PhoneManager, Assembly-CSharp
-        m_MethodName: getPhone
+        m_TargetAssemblyTypeName: Source.Managers.PhoneManager, Assembly-CSharp
+        m_MethodName: GetPhone
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2395,19 +2395,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1625116130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5253533d9262773458d42fc11af6ad4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 15bc7de51a4abe2498a6cf321bab0dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TalkTextUI: {fileID: 1542141076}
+  talkTextUI: {fileID: 1542141076}
   typingDelay: 0.05
-  PlayingCheck: 0
+  playingCheck: 0
   writeIndex: 0
-  AnimationMinus: 0
+  animationMinus: 0
   filePath: Assets/Sourse/Managers/Lines/Scene0.data
-  ScreenEventManager: {fileID: 407587521}
+  screenEventManager: {fileID: 407587521}
   term: 2
-  TalkNameMannager: {fileID: 1901213362}
-  PlanSetter: {fileID: 167610460}
+  talkNameManager: {fileID: 407587521}
+  planSetter: {fileID: 167610460}
 --- !u!1 &1642618036
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,7 +2622,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1625116132}
-        m_TargetAssemblyTypeName: TalkPrograssManager, Assembly-CSharp
+        m_TargetAssemblyTypeName: Source.Managers.TalkProgressManager, Assembly-CSharp
         m_MethodName: ClickButton
         m_Mode: 1
         m_Arguments:
@@ -2943,8 +2943,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   halfFade: {fileID: 1168128241}
-  dropdownanim: {fileID: 1901213367}
-  DButtonanim: {fileID: 877090896}
+  dropDownAni: {fileID: 1901213367}
+  dButtonAni: {fileID: 877090896}
 --- !u!95 &1901213367
 Animator:
   serializedVersion: 5
