@@ -1244,7 +1244,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 797584753}
   breadSubmit: 0
-  eotk: 0
   customer: {fileID: 350271136}
   text: {fileID: 899550981}
   bread1: {fileID: 4682090}
