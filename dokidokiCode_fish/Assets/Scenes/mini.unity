@@ -534,7 +534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd60268b9f58354e9b5ddac1523306b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b1g: 1
 --- !u!1 &330023491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,21 +1414,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endOfTalk: 0
-  bread1Count: 0
-  bread2Count: 0
-  bread3Count: 0
+  bread1Random: 0
+  bread2Random: 0
+  bread3Random: 0
   score: 0
   b1: 0
   b2: 0
   b3: 0
   customer: {fileID: 350271136}
   text: {fileID: 899550981}
-  bread1: {fileID: 0}
-  bread2: {fileID: 0}
-  bread3: {fileID: 0}
+  bread1: {fileID: 888284640}
+  bread2: {fileID: 726582906}
+  bread3: {fileID: 552905962}
   button: {fileID: 231596799}
   button1: {fileID: 217700098}
   button2: {fileID: 2039130066}
+  scoreReceived: 0
 --- !u!114 &1380494264
 MonoBehaviour:
   m_ObjectHideFlags: 0

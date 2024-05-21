@@ -217,10 +217,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4682090}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edd60268b9f58354e9b5ddac1523306b, type: 3}
+  m_Script: {fileID: 11500000, guid: 416d775d82084c2ea7b57d6195d862c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b1g: 1
+  b1G: 1
 --- !u!1 &217700096
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b4d354ed8de9d4c8a9a33edec625c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b2g: 1
+  b2G: 1
 --- !u!61 &217700102
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -534,7 +534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd60268b9f58354e9b5ddac1523306b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b1g: 1
 --- !u!1 &330023491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1032,7 +1031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b4d354ed8de9d4c8a9a33edec625c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b2g: 1
+  b2G: 1
 --- !u!1 &726582906
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,22 +1413,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1820b17589ca94043a7cfe586802cb56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eotk: 0
-  bread1: 0
-  bread2: 0
-  bread3: 0
+  endOfTalk: 0
+  bread1Random: 0
+  bread2Random: 0
+  bread3Random: 0
   score: 0
-  B1: 0
-  B2: 0
-  B3: 0
-  Customer: {fileID: 350271136}
-  Text: {fileID: 899550981}
-  Bread1: {fileID: 888284640}
-  Bread2: {fileID: 726582906}
-  Bread3: {fileID: 552905962}
-  Button: {fileID: 231596799}
-  Button1: {fileID: 217700098}
-  Button2: {fileID: 2039130066}
+  b1: 0
+  b2: 0
+  b3: 0
+  customer: {fileID: 350271136}
+  text: {fileID: 899550981}
+  bread1: {fileID: 888284640}
+  bread2: {fileID: 726582906}
+  bread3: {fileID: 552905962}
+  button: {fileID: 231596799}
+  button1: {fileID: 217700098}
+  button2: {fileID: 2039130066}
 --- !u!114 &1380494264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1442,7 +1441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33f7965cb1867824db5c5573ae550abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TimeText: {fileID: 0}
+  timeText: {fileID: 0}
 --- !u!1 &1725638293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,7 +1539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ba6c3f6335b8394abc59af40c24d0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b3g: 1
+  b3G: 1
 --- !u!1 &1903202599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,7 +1742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ba6c3f6335b8394abc59af40c24d0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  b3g: 1
+  b3G: 1
 --- !u!61 &2039130070
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1795,9 +1794,9 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 750057231}
+  - {fileID: 4682092}
   - {fileID: 636054495}
   - {fileID: 1725638295}
-  - {fileID: 4682092}
   - {fileID: 1380494262}
   - {fileID: 350271138}
   - {fileID: 899550983}

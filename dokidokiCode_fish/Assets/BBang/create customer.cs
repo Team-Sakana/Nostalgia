@@ -9,9 +9,9 @@ namespace BBang
     public class CreateCustomer : MonoBehaviour
     {
         [FormerlySerializedAs("eotk")] public bool endOfTalk = false;
-        [FormerlySerializedAs("bread1")] public int bread1Count = 0;
-        [FormerlySerializedAs("bread2")] public int bread2Count = 0;
-        [FormerlySerializedAs("bread3")] public int bread3Count = 0;
+        [FormerlySerializedAs("bread1")] public int bread1Random = 0;
+        [FormerlySerializedAs("bread2")] public int bread2Random = 0;
+        [FormerlySerializedAs("bread3")] public int bread3Random = 0;
         public int score = 0;
 
         [FormerlySerializedAs("B1")] public int b1 = 0;
@@ -32,6 +32,8 @@ namespace BBang
         [FormerlySerializedAs("Button")] public Button button;
         [FormerlySerializedAs("Button1")] public Button button1;
         [FormerlySerializedAs("Button2")] public Button button2;
+
+        public bool scoreReceived;
         // Start is called before the first frame update
 
 
@@ -67,14 +69,15 @@ namespace BBang
             B1G = 0;
             B2G = 0;
             B3G = 0;
-            bread1Count = Random.Range(1, 4);
-            bread2Count = Random.Range(1, 4);
-            bread3Count = Random.Range(1, 4);
+            scoreReceived = false;
+            bread1Random = Random.Range(1, 4);
+            bread2Random = Random.Range(1, 4);
+            bread3Random = Random.Range(1, 4);
             var cloneC = Instantiate(customer);
             var cloneT = Instantiate(text);
             cloneC.transform.position = new Vector3(-4, 2, 0);
             cloneT.transform.position = new Vector3(3.8f, 2.75f, 0f);
-            switch (bread1Count)
+            switch (bread1Random)
             {
                 case 1:
                 {
@@ -102,7 +105,7 @@ namespace BBang
                 }
             }
         
-            switch (bread2Count)
+            switch (bread2Random)
             {
                 case 1:
                 {
@@ -130,7 +133,7 @@ namespace BBang
                 }
             }
         
-            switch (bread3Count)
+            switch (bread3Random)
             {
                 case 1:
                 {
@@ -165,7 +168,8 @@ namespace BBang
 
         private void Update()
         {
-            if (B1G != b1 || B2G != b2 || B3G != b3) return;
+            if (B1G != b1 || B2G != b2 || B3G != b3 || scoreReceived) return;
+            scoreReceived = true;
             score += 1000;
             b1 = 0;
             b2 = 0;
