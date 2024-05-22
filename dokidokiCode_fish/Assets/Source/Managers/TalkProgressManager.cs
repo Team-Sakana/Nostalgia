@@ -36,7 +36,7 @@ namespace Source.Managers
             Debug.Log(PlanDropdownManager.TodayPlan[0]);
             _time = new WaitForSeconds(typingDelay);
             if (!SaveManager.SaveData.IsFirst) return;
-            PlanSetter.SetMorningPlan(0,PlanSetter.PlanImage.Backsu,"백수짓","throwThisLOL");
+            PlanSetter.SetMorningPlan(0,PlanSetter.PlanImage.Unemployed,"백수짓","throwThisLOL");
             PlanSetter.SetMorningPlan(1,PlanSetter.PlanImage.Bread,"하율에게 제빵 배우기","Assets/Source/Managers/Lines/BreadTutoreal.data");
             PlanSetter.SetLunchPlan(0,PlanSetter.PlanImage.Gym,"운동 배우기","Assets/Source/Managers/Lines/GYMFirst.data");
             PlanSetter.SetNightPlan(0,PlanSetter.PlanImage.Game,"게임하기","Assets/Source/Managers/Lines/GameFirst.data");

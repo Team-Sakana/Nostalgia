@@ -9,7 +9,7 @@ namespace Source.Managers
 
         public enum PlanImage
         {
-            Game,Bread,Gym,Hayoul,Backsu
+            Game,Bread,Gym,Hayoul,Unemployed
         }
 
         public static void SetMorningPlan(int insertSlot, PlanImage dropImg, string dropString, string lineFilepath)
