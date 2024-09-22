@@ -105,7 +105,7 @@ namespace BBang
             Custom = Random.Range(1, 3);
             var cloneC = Instantiate(customer);
             var cloneCSprite = cloneC.GetComponent<SpriteRenderer>();
-            cloneCSprite.sprite = SpriteManager.GetSprite("Cutomers/Customer" + Custom + "(default)");
+            cloneCSprite.sprite = SpriteManager.GetSprite("Customers/Customer" + Custom + "(default)");
             var cloneT = Instantiate(text);
             cloneC.transform.position = new Vector3(-5.2f, 0.56f, 0);
             cloneT.transform.position = new Vector3(3.35f, 1.7f, 0f);
@@ -219,7 +219,7 @@ namespace BBang
             if (breadSubmit) return;
             if (_b1 <= _b1G && _b2 <= _b2G && _b3 <= _b3G && (_b1G != _b1 || _b2G != _b2 || _b3G != _b3)) return;
             var isSuccess = (_b1G == _b1 && _b2G == _b2 && _b3G == _b3);
-            _spriteRenderer.sprite = SpriteManager.GetSprite("Cutomers/Customer" + Custom + "(" + (isSuccess ? "Success" : "Fail") + ")");
+            _spriteRenderer.sprite = SpriteManager.GetSprite("Customers/Customer" + Custom + "(" + (isSuccess ? "Success" : "Fail") + ")");
             _cC.GetComponent<SpriteRenderer>().sprite = _spriteRenderer.sprite;
             DestroyAll(0, _cB1, _cB2, _cB3, _cT);
             Destroy(_cC, 0.5f);
